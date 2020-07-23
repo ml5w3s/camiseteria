@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Projeto Final</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!--meta tag de normatização do Bootstrap para todos os dispositivos-->
+  
+  <!--Plugins do Bootstrap-->
+  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link href="css/half-slider.css" rel="stylesheet">
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  
+  <!--Plugins Bootstrap On-line-->
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+		<div id="topo">
+			<div class="logo">
+			
+				<a href="index.html"><img src="imagens/logo.png" alt=""/></a>
+			</div>
+		</div>
+
+	<nav class="navbar navbar-inverse navbar" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="sobre.html">Sobre</a>
+                    </li>
+                    
+						<li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Camisetas <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Link 01</a></li>
+            <li><a href="#">Link 02</a></li>
+            <li><a href="#">Link 03</a></li>
+          </ul>
+        </li>
+					             
+					<li>
+                        <a href="cadastro.html">Cadastro</a>
+                    </li>
+					<li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+			
+        <!-- /.container -->
+    </nav>
+
+        
+
+
+	<div class="container">
+  <div class="row">
+  
+   
+  <div class="col-md-6">
+  <h1> Fale Conosco</h1>
+  <br>
+  <div class="form-group">
+  <label for="usr">Nome:</label>
+  <input type="text" class="form-control" id="usr">
+</div>
+
+  <div class="form-group">
+  <label for="usr">E-mail:</label>
+  <input type="text" class="form-control" id="usr">
+</div>
+
+<div class="form-group">
+  <label for="usr">Telefone:</label>
+  <input type="text" class="form-control" id="usr">
+</div>
+
+<div class="form-group">
+    <label for="exampleTextarea">Assunto</label>
+    <textarea class="form-control" id="" rows="2"></textarea>
+  </div>
+
+<button type="submit" class="btn btn-primary">Enviar</button>
+
+  </div>
+  
+<div class="col-md-6">
+<h1> Nossos Contatos</h1>
+<br>
+<br>
+
+    <h4> SHIGS 714 Bloco K apt fundos Asa Sul - Brasília/DF<br><br>
+	<b>E-mail:</b> marcelo.lauriano@gmail.com<br></h4>
+	<h3><b> (61) 98549 8185</b></h3>
+	
+  
+  </div>
+  <hr>
+  
+  <div class="col-md-12">
+   <h1> Nossa Localização</h1>	
+   <br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d4667.151247819138!2d-47.89228220929809!3d-15.761094057747497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x935a3a3776919e29%3A0x5aa8f0d19724115e!2smaps+vers%C3%A1til+tecnologia!3m2!1d-15.760969!2d-47.891571!5e1!3m2!1spt-BR!2sbr!4v1499017389418" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  
+      </div>
+    </div>
+  </div>
+
+<div id="footer">
+<p class="footer">
+<br>
+Turma SuperWeb 2017 - Todos os Direitos Livres
+
+</p>
+</div>
+
+
+<!-- Script para ativar o Slider -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //especifica a velocidade
+    })
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Projeto Final</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!--meta tag de normatização do Bootstrap para todos os dispositivos-->
+  
+  <!--Plugins do Bootstrap-->
+  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link href="css/half-slider.css" rel="stylesheet">
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  
+  <!--Plugins Bootstrap On-line-->
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+		<div id="topo">
+			<div class="logo">
+				<a href="index.html"><img src="imagens/logo.png" alt=""/></a>
+			</div>
+		</div>
+
+	<nav class="navbar navbar-inverse navbar" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="sobre.html">Sobre</a>
+                    </li>
+                    
+						<li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Camisetas <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Link 01</a></li>
+            <li><a href="#">Link 02</a></li>
+            <li><a href="#">Link 03</a></li>
+          </ul>
+        </li>
+					             
+					<li>
+                        <a href="cadastro.html">Cadastro</a>
+                    </li>
+					<li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+			
+        <!-- /.container -->
+    </nav>
+
+        
+
+
+	<div class="container">
+  <div class="row">
+  
+  <h1> Cadastro</h1>
+  <div class="col-md-6">
+  
+  <div class="form-group">
+  <label for="usr">Nome:</label>
+  <input type="text" class="form-control" id="usr">
+</div>
+
+  </div>
+  
+  <div class="col-md-6">
+  
+  <div class="form-group">
+  <label for="usr">Endereço:</label>
+  <input type="text" class="form-control" id="usr">
+</div>
+
+  </div>
+   <div class="col-md-6">
+  
+  <div class="form-group">
+  <label for="usr">Telefone:</label>
+  <input type="text" class="form-control" id="usr">
+</div>
+
+  </div>
+  
+  <div class="col-md-6">
+  
+  <div class="form-group">
+  <label for="usr">E-mail:</label>
+  <input type="text" class="form-control" id="usr">
+</div>
+
+  </div>
+   <div class="col-md-4">
+   <label for="usr">Temas das camisetas :</label>
+                        <select name="curso" class="form-control" id="usr">
+                            <option selected="selected">Arte Sacra</option>
+                            <option>Arte Diversaas</option>
+                            <option>Bandas</option>
+                            <option>Informática</option>
+                            <option>Heróis</option>
+                            <option>Personalizadas</option>
+                        </select>
+                    
+  </div>
+  <br>
+  
+  <div class="col-md-4">
+   <label for="usr">Quantidade de camisas:</label>
+                        <select name="curso" class="form-control" id="usr">
+                            <option selected="selected">01 camisa</option>
+                            <option>05 camisas</option>
+                            <option>10 camisas</option>
+                            <option>Acima de 10 camisas</option>
+                        </select>
+                    
+  </div>
+  <br>
+    <div class="col-md-4">
+   <label for="usr">Cargo Pretendido:</label>
+                        <select name="curso" class="form-control" id="usr">
+                            <option selected="selected">Silk</option>
+                            <option>Sublimação</option>
+                            <option>Sublimação total</option>
+                            <option>Outros</option>
+                        </select>
+                    
+  </div>
+  
+  <div class="col-md-12">
+  <br>
+  <label for="usr">Capital onde pretende enviar:</label><br><br>
+ 
+<label class="custom-control custom-radio">
+  <input id="usr" name="cidade" type="radio" Value="Brasília" class="custom-control-input" id="usr">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Brasília</span>
+</label>
+<label class="custom-control custom-radio">
+  <input id="usr" name="cidade" type="radio" Value="São Paulo" class="custom-control-input" id="usr">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">São Paulo</span>
+</label>
+<label class="custom-control custom-radio">
+  <input id="usr" name="cidade" type="radio" Value="Rio de Janeiro" class="custom-control-input" id="usr">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Rio de Janeiro</span>
+</label>
+                   
+  </div>
+ 
+     <div class="col-md-12">
+  <div class="form-group">
+  <br>
+    <label for="exampleTextarea">Comentários</label>
+    <textarea class="form-control" id="Textarea" rows="10"></textarea>
+  </div>
+  </div>
+  
+  <div class="col-md-12">
+  <button type="submit" class="btn btn-primary">Enviar</button>
+  </div>
+  
+      </div>
+    </div>
+  </div>
+
+<div id="footer">
+<p class="footer">
+<br>
+Turma SuperWeb 2017 - Todos os Direitos Livres
+
+</p>
+</div>
+
+
+<!-- Script para ativar o Slider -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //especifica a velocidade
+    })
+    </script>
+
+</body>
+</html>

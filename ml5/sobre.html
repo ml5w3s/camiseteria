@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Projeto Final</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!--meta tag de normatização do Bootstrap para todos os dispositivos-->
+  
+  <!--Plugins do Bootstrap-->
+  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link href="css/half-slider.css" rel="stylesheet">
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  
+  <!--Plugins Bootstrap On-line-->
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+		<div id="topo">
+			<div class="logo">
+			
+				<a href="index.html"><img src="imagens/logo.png" alt=""/></a>
+			</div>
+		</div>
+
+	<nav class="navbar navbar-inverse navbar" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="sobre.html">Sobre</a>
+                    </li>
+                    
+						<li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Camisetas <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Link 01</a></li>
+            <li><a href="#">Link 02</a></li>
+            <li><a href="#">Link 03</a></li>
+          </ul>
+        </li>
+					             
+					<li>
+                        <a href="cadastro.html">Cadastro</a>
+                    </li>
+					<li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+			
+        <!-- /.container -->
+    </nav>
+
+        
+
+
+	<div class="container">
+  <div class="row">
+  
+  <h1> Sobre Nós</h1>
+  <br>
+  <!-- 02 colunas -->
+    
+	<div class="col-md-6">
+      <div class="thumbnail">
+        <img src="imagens/batman.jpg" alt="Lights" style="width:100%"><!-- O estilo "style="width:100%" é responsável por adaptar a imagem adequadamente ao dispositivo.-->
+                 
+      </div>
+    </div>
+	<div class="col-md-6">
+      <h3>Camisetas</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Lorem ipsum dolor sit amet, consectetur adipisicing elit... Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris Lorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elit...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Lorem ipsum dolor sit amet, consectetur adipisicing elit... Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris Lorem ipsum dolor sit amet, consectetur adipisicing elit...Lorem ipsum dolor sit amet, consectetur adipisicing elit...Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...Lorem ipsum dolor sit amet, consectetur adipisicing elit... Lorem ipsum dolor sit amet, consectetur adipisicing elit... Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
+    </div>
+    
+	
+	
+  </div>
+    <h2>Imagens</h2>
+  <br>
+  
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <img src="imagens/banner/lights.jpg" alt="Lights" style="width:100%"><!-- O estilo "style="width:100%" é responsável por adaptar a imagem adequadamente ao dispositivo.-->
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <img src="imagens/banner/nature.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+		<img src="imagens/banner/fjords.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+<p class="footer">
+<br>
+Turma SuperWeb 2017 - Todos os Direitos Livres
+
+</p>
+</div>
+
+
+<!-- Script para ativar o Slider -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //especifica a velocidade
+    })
+    </script>
+
+</body>
+</html>
